@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+:root {
+
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Oswald", sans-serif;
+  --bodyBack: #f7e0c0;
+  --textColor: #080808;
+  --sectionBack: #f7f6f9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: var(--bodyBack);
+  min-height: 80vh;
+  display: grid;
+  place-content: center;
+  font-family: var(--primary-font);
+}
+
+.blog-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+  color: rgb(151, 22, 22);
+}
+
+.container span {
+  color: #a70707;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.header h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: var(--textColor);
+}
+
+.products {
+  width: 100%;
+  align-self: center;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 30px;
+}
+
+.product {
+  position: relative;
+  background-color: var(--sectionBack);
+  width: 350px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px 40px;
+  border-radius: 10px;
+  transition: .3s;
+}
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  padding-top: 30px;
+  color: rgb(245, 162, 9);
+}
+
+
+.product:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  background-color: rgb(244, 253, 193);
+}
+
+.image {
+  width: 100%;
+  height: 60%;
+  display: grid;
+  place-content: center;
+}
+
+.image img {
+  width: 240px;
+}
+
+.namePrice h3 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  color: var(--textColor);
+}
+
+.namePrice span {
+  font-size: 1em;
+  color: var(--textColor);
+}
+
+.product p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.bay {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bay button {
+  padding: 10px 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: var(--textColor);
+  color: var(--sectionBack);
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.bay button:hover {
+  transform: scale(1.1);
+}

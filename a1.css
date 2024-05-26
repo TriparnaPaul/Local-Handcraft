@@ -1,0 +1,154 @@
+header {
+  background-color: rgb(230, 192, 226);
+  display: flex;
+  font-size: larger;
+  font-style: normal;
+  font-weight: bold;;
+  color: rgb(108, 214, 21);
+  justify-content: center;
+  padding: 20px;
+}
+
+.pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 8px ridge blue;
+    max-width: 30%;
+    height: 30%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Change to 'space-between', 'space-around', or 'space-evenly' to adjust spacing */
+}
+
+li {
+  color: rgb(241, 238, 205);
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+li img{
+max-width: 10%;
+}
+.logo {
+  display: block;
+  align-items: center;
+}
+
+.navbar {
+  display: block;  
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7eed0;
+  color: rgb(32, 30, 30);
+  padding: 20px;
+}
+.nabbar img{
+max-width: 50%;
+}
+
+.logo img {
+  max-width: 50%;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  margin: 100;
+  font-size: 30px;
+}
+.text-big {
+  font-size: 32px;
+}
+
+.text-small {
+  font-size: 20px;
+}
+.text-big img{
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 0;
+}
+h1 img{
+  max-width: 50%;
+}
+
+p {
+  font size: 34;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 2.5;
+}
+.section {
+  color: rgb(36, 36, 41);
+  text-align: left;
+  padding: 20px;
+  font-size: larger;
+}
+.section img{
+  max-width: 20%;
+  height: auto;
+}
+
+.secondsection {
+  color: rgb(36, 33, 33);
+  padding: 20px;
+  text-align: center;
+  font-size: small;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.box-main {
+  display: flex;
+  font-size: large;
+}
+
+.secondHalf {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.box-main img {
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.secondsection img{
+  max-width: 30%;
+  height:auto;
+}
+h3{
+  color: rgb(35, 9, 180);
+}
+footer {
+  background-color: rgb(243, 202, 236);
+  color: rgb(0, 0, 0);
+  display: flex;
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+  padding: 20px;
+}

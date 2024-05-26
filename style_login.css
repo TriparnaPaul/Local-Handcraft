@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #021832;
+  --secondary-color: #caa169;
+  --bg-color: #f4f4f4;
+  --bg-white: #fff;
+  --bg-black: #000;
+
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Oswald", sans-serif;
+  --primary-text: #021832;
+  --secondary-text: #caa169;
+  --text-white: #fff;
+  --text-black: #151515;
+  --text-gray: #e4e4e4;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+}
+.row {
+  padding: 10px;
+}
+.main-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 0.0625rem solid var(--primary-color);
+  padding: 0.375rem 1.875rem;
+  border-radius: 3.125rem;
+  line-height: 1.75rem;
+  display: inline-block;
+  transition: all 0.3s ease-out 0s;
+}
+
+.main-btn:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--text-white);
+}
+
+section {
+  padding: 3.125rem 0;
+}
+
+.login_form {
+  margin-top: 20px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 1px 36px 5px rgba(0, 0, 0, 0.28);
+  border-radius: 5px;
+}
+
+.name {
+  font-family: Pacifico;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.form_btn {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+
+  width: 100%;
+}
+
+.label_txt {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.form-control {
+  border-radius: 25px;
+}
+
+.signup_form {
+  background: #fff;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  box-shadow: 0px 1px 36px 5px rgba(0, 0, 0, 0.28);
+  border-radius: 5px;
+}
+/*.errmsg {
+  margin: 2px auto;
+  border-radius: 5px;
+  border: 1px solid red;
+  background: pink;
+  text-align: left;
+  color: brown;
+  padding: 1px;
+}
+.successmsg {
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 1px solid green;
+  background: #33cc00;
+  text-align: left;
+  color: white;
+  padding: 10px;
+}*/

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Handcraft</title>
+</head>
+<link rel="icon" type="image/png" href="/logo.png" />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="responsive-style.css" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+  <!--Navbar-->
+  <header class="header-wrapper">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="logoH.jpg" class="img-fluid" alt="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!--<span class="navbar-toggler-icon"></span>-->
+          <i class="far fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#catagories" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Catagories
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="BIRTHDAY.html">Birthday</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="WEDDING.html">Wedding</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="HOMEDECORE.html">Home Decore</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="WOODEN1.html">Wood Work</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Embroidery.html">Embroidery</a>
+                </li>
+
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ALL CAT.html">All Catagories</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">ContactUs</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="main-btn" href="http://localhost/php-admin-panel/Admin_panel/admin/login.php">Adminpanel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--banner section-->
+  <section id="home" class="banner_wrapper p-0">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url(./images/slider/11.jpg)">
+          <div class="slide-caption text-center">
+            <div>
+              <h1>Welcome to HandCraft</h1>
+              <h2>
+                ...Find Something You Love...
+              </h2>
+              <p>
+                Join us in supporting creativity, craftsmanship, and community and discover unique treasures, connect
+                with talented creators, and embrace the beauty of handmade excellence. Welcome to your online home for
+                all things handmade.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide" style="background-image: url(./images/slider/13.jpg)">
+          <div class="slide-caption text-center">
+            <div>
+              <h1>Welcome to HandCraft</h1>
+              <h2>
+                ...Find Something You Love...
+              </h2>
+              <p>
+                Join us in supporting creativity, craftsmanship, and community and discover unique treasures, connect
+                with talented creators, and embrace the beauty of handmade excellence. Welcome to your online home for
+                all things handmade.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide" style="background-image: url(./images/slider/12.jpg)">
+          <div class="slide-caption text-center">
+            <div>
+              <h1>Welcome to HandCraft</h1>
+              <h2>
+                ...Find Something You Love...
+              </h2>
+              <p>
+                Join us in supporting creativity, craftsmanship, and community and discover unique treasures, connect
+                with talented creators, and embrace the beauty of handmade excellence. Welcome to your online home for
+                all things handmade.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="container booking-area">
+      <form class="row">
+        <div class="col-lg mb-3 mb-lg-0">
+          <input type="date" class="form-control" placeholder="Date" />
+        </div>
+
+        <div class="col-lg mb-3 mb-lg-0">
+          <select class="form-select">
+            <option selected>Category</option>
+            <option value="1">Birthday</option>
+            <option value="2">Wedding</option>
+            <option value="3">Anniversary</option>
+            <option value="4">Wood Work</option>
+            <option value="5">Home Decor</option>
+          </select>
+        </div>
+
+        <div class="col-lg mb-3 mb-lg-0">
+          <select class="form-select">
+            <option selected>Types</option>
+            <option value="1">Pottery and Ceramics</option>
+            <option value="2">Leathercraft</option>
+            <option value="3">Candlemaking</option>
+            <option value="4">Basketry and Weaving</option>
+            <option value="5">Paper Crafts</option>
+          </select>
+        </div>
+
+        <div class="col-lg mb-3 mb-lg-0">
+          <select class="form-select">
+            <option selected>Brand</option>
+            <option value="1">Etsy</option>
+            <option value="2">West Elm</option>
+            <option value="3">Patagonia</option>
+            <option value="4">NOVICA</option>
+            <option value="5">Sseko Designs</option>
+          </select>
+        </div>
+
+        <div class="col-lg mb-3 mb-lg-0">
+          <button type="submit" class="main-btn rounded-2 px-lg-3">
+            Check Availabilty
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!--About section-->
+  <section id="about" class="about_wrapper">
+    <div class="container">
+      <div class="row flex-lg-row flex-column-reverse">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h3>
+            Welcome to
+            <span>HandCraft World <br class="d-none d-lg-block" />
+              the creativity</span>
+            of your hand
+          </h3>
+
+          <p>
+            Explore our curated collection of handmade items, from intricately woven textiles to exquisitely carved
+            woodwork. Connect with the stories behind each piece, as artisans share their inspiration and
+            techniques.Whether you're seeking a one-of-a-kind gift or looking to adorn your home with artisanal beauty,
+            you'll find
+            it here.
+          </p>
+          <p>
+            Join our community of craft enthusiasts, support sustainable practices, and celebrate the timeless
+            artistry of handmade creations. Welcome to the heart of handcrafted excellence.
+          </p>
+
+          <a href="about_main.html" class="main-btn mt-4">Explore</a>
+        </div>
+        <div class="col-lg-6 mb-lg-0 ps-lg-4 text-center">
+          <img src="images/about_img.jpg" class="img-fluid" alt="about" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Catagories-->
+  <section id="catagories" class="catagories_wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center mb-5">
+          <h6>What I can do for you</h6>
+          <h3>Our Favorite Catagories</h3>
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="col-md-4 mb-4 mb-lg-0">
+          <div class="catagory">
+            <img src="./images/catagory/catagory2.jpg" class="img-fluid" />
+            <div class="catagory-wrap">
+              <div class="catagory-content">
+                <h5 class="text-white mb-lg-5 text-decoration-underline">
+                  Embroidery
+                </h5>
+                <p class="text-white">
+                  Embroidery DIY handcraft is a fulfilling and creative hobby that involves stitching intricate designs
+                  onto fabric using needles, threads, and embroidery hoops. With countless online tutorials and patterns
+                  available, beginners can easily learn basic stitches and gradually develop their skills to create
+                  personalized and beautiful embroidered pieces, from clothing to decorative items.
+                </p>
+                <p class="text-white fw-bold mt-lg-4">$6 / piece</p>
+                <a class="main-btn border-white text-white mt-lg-5">See More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-lg-0">
+          <div class="catagory">
+            <img src="./images/catagory/catagory1.jpg" class="img-fluid" />
+            <div class="catagory-wrap">
+              <div class="catagory-content">
+                <h5 class="text-white mb-lg-5 text-decoration-underline">
+                  WEDDING
+                </h5>
+                <p class="text-white">
+                  Crafting handmade wedding decorations and favors adds a personal and unique touch to your special day.
+                  From DIY centerpieces and bouquets to custom-designed invitations and hand-painted signage,
+                  handcrafting elements allows couples to infuse their personalities and love story into every detail,
+                  creating lasting memories for themselves and their guests.
+                </p>
+                <p class="text-white fw-bold mt-lg-4">$6 / piece</p>
+                <a href="WEDDING.html" class="main-btn border-white text-white mt-lg-5">See More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-lg-0">
+          <div class="catagory">
+            <img src="./images/catagory/catagory3.jpg" class="img-fluid" />
+            <div class="catagory-wrap">
+              <div class="catagory-content">
+                <h5 class="text-white mb-lg-5 text-decoration-underline">
+                  Metal work
+                </h5>
+                <p class="text-white">
+                  Useful and decorative objects fashioned of various metals, including copper, iron, silver, bronze, lead, gold, and brass. 
+                </p>
+                <p class="text-white fw-bold mt-lg-4">$6 / piece</p>
+                <a class="main-btn border-white text-white mt-lg-5">See More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 text-center">
+        <a href="ALL CAT.html" class="main-btn mt-4">Explore</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Service-->
+  <section id="services" class="services_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center mb-5">
+          <h6>We Are Here For You</h6>
+          <h3>Our Awesome Services</h3>
+        </div>
+      </div>
+
+      <div class="row align-items-center service-item-wrap">
+        <div class="col-lg-7 p-lg-0">
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="learn" role="tabpanel">
+              <img src="./images/services/learn.jpg" />
+            </div>
+            <div class="tab-pane fade" id="buy" role="tabpanel">
+              <img src="./images/services/buy" />
+            </div>
+            <div class="tab-pane fade" id="link" role="tabpanel">
+              <img src="./images/services/link.png" />
+            </div>
+            <div class="tab-pane fade" id="post" role="tabpanel">
+              <img src="./images/services/post.png" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 position-relative">
+          <div class="services-menu-area">
+            <ul class="nav nav-tabs">
+              <li>
+                <a data-bs-toggle="tab" href="#learn" class="active">
+                  <span class="service-icon">
+                    <img src="./images/services/service-icon1.webp" alt="" />
+                  </span>
+                  <h5>Learn</h5>
+                  <p>
+                    Explore and learn the art of handcrafts with our interactive tutorials, workshops, and resources.
+                    Unleash your creativity today!
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a data-bs-toggle="tab" href="#buy">
+                  <span class="service-icon">
+                    <img src="./images/services/service-icon2.webp" alt="" />
+                  </span>
+                  <h5>Buy</h5>
+                  <p>
+                    Discover and purchase exquisite handcrafted items from talented artisans worldwide. Find the perfect
+                    handmade treasures to adorn your life with beauty.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a data-bs-toggle="tab" href="#link">
+                  <span class="service-icon">
+                    <img src="./images/services/service-icon4.webp" alt="" />
+                  </span>
+                  <h5>Link</h5>
+                  <p>
+                    Connect with artisans, explore unique creations, and support handmade craftsmanship on our platform.
+                    Join us in celebrating the art of handcrafts.
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a data-bs-toggle="tab" href="#post">
+                  <span class="service-icon">
+                    <img src="./images/services/service-icon3.webp" alt="" />
+                  </span>
+                  <h5>Post</h5>
+                  <p>
+                    Share your handcrafted creations with our community and gain exposure for your work. Inspire others
+                    with your artistry today!
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Gallery-->
+  <section id="gallery" class="gallery_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center mb-5">
+          <h6>Best Picture of Our Site</h6>
+          <h3>Our Gallery</h3>
+        </div>
+      </div>
+      <div class="row g-0">
+        <div class="col-lg-3 col-md-6 gallery-item">
+          <img src="lady.jpg" class="img-fluid w-100" />
+          <div class="gallery-item-content"></div>
+        </div>
+        <div class="col-lg-3 col-md-6 gallery-item">
+          <img src="./images/gallery/11.jpg" class="img-fluid w-100" />
+          <div class="gallery-item-content"></div>
+        </div>
+        <div class="col-lg-3 col-md-6 gallery-item">
+          <img src="./images/gallery/12.jpg" class="img-fluid w-100" />
+          <div class="gallery-item-content"></div>
+        </div>
+        <div class="col-lg-3 col-md-6 gallery-item">
+          <img src="./images/gallery/13.jpg" class="img-fluid w-100" />
+          <div class="gallery-item-content"></div>
+        </div>
+        <div class="col-md-6 gallery-item">
+          <img src="./images/gallery/14.jpg" class="img-fluid w-100" />
+          <div class="gallery-item-content"></div>
+        </div>
+        <div class="col-md-6 gallery-item">
+          <img src="./images/gallery/15.jpg" class="img-fluid w-100" />
+          <div class="gallery-item-content"></div>
+        </div>
+      </div>
+
+  </section>
+
+  <!--Blog-->
+  <section id="blog" class="blog_wrapper pb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center mb-5">
+          <h6>Say Hello TO our Visiters</h6>
+          <h3>Our Blog</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card p-0 border-0 rounded-0">
+            <img src="./images/blog/blog-1.jpg" />
+            <div class="blog-content bg-white p-4">
+              <h5 class="text-decoration-underline mb-4">Home Decor</h5>
+              <h6>February 17, 2023</h6>
+              <p class="mt-2">
+                Transform your space with our handcrafted home decor pieces. Explore unique designs crafted with care to
+                add personality and style to your home.
+              </p>
+              <a href="HOMEDECORE.html" class="main-btn mt-2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card p-0 border-0 rounded-0">
+            <img src="./images/blog/blog-2.jpg" />
+            <div class="blog-content bg-white p-4">
+              <h5 class="text-decoration-underline mb-4">Birthday Decore</h5>
+              <h6>February 24, 2023</h6>
+              <p class="mt-2">
+                Create stunning birthday decorations with our handcrafted supplies. Elevate your celebration with unique
+                and personalized touches crafted with care.
+              </p>
+              <a href="BIRTHDAY.html" class="main-btn mt-2">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-12 text-center">
+      <a href="blog.html" class="main-btn mt-4">More Blogs</a>
+    </div>
+
+  </section>
+
+  <!--footer-->
+  <section id="contact" class="footer_wrapper mt-3 mt-md-5 pb-0">
+    <div class="container pb-3">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <h5>Location</h5>
+          <p class="ps-0">
+           
+          </p>
+          <div class="contact-info">
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><i class="fa fa-home me-3"></i>No. 96, South City,
+                  Kolkata</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-envelope me-3"></i>info@handcraft.com</a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">
+                    Contact Form
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>More Links</h5>
+          <ul class="link-widget p-0">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Office</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">Buy Product</a></li>
+            <li><a href="#">Return Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>More Links</h5>
+          <ul class="link-widget p-0">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Office</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">Buy Product</a></li>
+            <li><a href="#">Return Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Newsletter</h5>
+          <div class="form-group mb-4">
+            <input type="email" class="form-control bg-transparent" placeholder="enter your email here" />
+            <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">
+              Subscribe
+            </button>
+          </div>
+          <h5>Stay Connected</h5>
+          <ul class="social-network d-flex align-items-center p-0">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-vimeo-v"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid copyright-section">
+      <p>
+        Copyright<a href="#">&copy;HANDCRAFTSOCIAL.</a>All Rights Reserved
+      </p>
+    </div>
+  </section>
+
+  <!--..........................................................-->
+  <!--link-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
